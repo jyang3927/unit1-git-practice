@@ -88,10 +88,32 @@ mkdir drinks
 rm -r drinks
 
 ### Step 4
+cd Desktop/grandCircus/preWork/unit1-git-practice
+git init
+Initialized empty Git repository in /Users/jpark/Desktop/grandCircus/preWork/unit1-git-practice/.git/
+git add .
+git status                        
+  On branch main
 
+  No commits yet
+
+  Changes to be committed:
+    (use "git rm --cached <file>..." to unstage)
+	  new file:   my-steps.txt
+	  new file:   plants/carrot.txt
+	  new file:   plants/pea.txt
+	  new file:   proteins/meats/crab.txt
+	  new file:   proteins/tofu.txt
+	  new file:   sweets/donut.txt
+	  new file:   veggies/carrot.txt
+	  new file:   veggies/pea.txt
+
+git commit -m "First commit for Step 4"
 
 ### Step 5
-
+git remote add origin git@github.com:jyang3927/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 ### Step 6
 
